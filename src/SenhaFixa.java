@@ -24,18 +24,19 @@ public class SenhaFixa {
 
         int tentativas = 1;
 
-        while (tentativas != 3 && senha != 2002) {
-            System.out.println("Senha invalida");
-            System.out.print("Tente outra vez: ");
-            senha = sc.nextInt();
-            tentativas++;
-            if (tentativas == 3) {
-                System.out.println("Acesso bloqueado");
+        if (senha == 2002) {
+            System.out.println("Acesso aprovado");
+        } else {
+            while (tentativas != 3 && senha != 2002) {
+                System.out.println("Senha invalida");
+                System.out.print("Tente outra vez: ");
+                senha = sc.nextInt();
+                tentativas++;
+                if (tentativas == 3) {
+                    System.out.println("Acesso bloqueado");
+                }
             }
         }
-        System.out.println("Acesso aprovado");
-
-
         sc.close();
     }
 }
