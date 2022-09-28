@@ -13,7 +13,7 @@ texto entre dois caracteres de sublinhado, '_'. Portanto, onde um autor escreve
 Você _deveria_ ver a foca no zoologico!
 
 Weblogger Brasil vai publicar o seguinte:
-  Você <i>deveria</i> ver a foca no zoologico!
+Você <i>deveria</i> ver a foca no zoologico!
 
 Outro atalho serve para colocar texto em negrito, o que, em HTML, é feito com
 as tags <b> e </b>. Weblogger Brasil permite aos autores fazer o mesmo com
