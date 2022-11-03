@@ -23,16 +23,22 @@ public class URI1018 {
         valor = sc.nextInt();
         nota100 = valor / 100;
         restoNota100 = valor % 100;
+
         nota50 = restoNota100 / 50;
         restoNota50 = valor % 50;
+
         nota20 = restoNota50 / 20;
         restoNota20 = restoNota50 % 20;
+
         nota10 = restoNota20 / 10;
         restoNota10 = restoNota20 % 10;
+
         nota5 = restoNota10 / 5;
         restoNota5 = restoNota10 % 5;
+
         nota2 = restoNota5 / 2;
         restoNota2 = restoNota5 % 2;
+
         nota1 = restoNota2 / 1;
 
         System.out.println(valor);
