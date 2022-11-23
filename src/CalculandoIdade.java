@@ -9,23 +9,26 @@ public class CalculandoIdade {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
+
+        System.out.println("Digite a idade: ");
+        int idade = sc.nextInt();
+
         int cont = 0;
         int soma = 0;
-
-        while (x > 0) {
-            soma += x; 
+        while (idade >= 0) {
+            soma += idade;
             cont++;
-            x = sc.nextInt();
+            System.out.println("Digite a idade: ");
+            idade = sc.nextInt();
         }
+
         if (cont > 0) {
-            double media = (double)soma / cont;
+            double media = (double) soma / cont;
             System.out.printf("%.2f%n", media);
         }
         else {
             System.out.println("Impossivel calcular");
         }
-
 
         sc.close();
     }

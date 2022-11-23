@@ -9,7 +9,7 @@ Para cada caso de teste imprima “Crescente”, caso os valores tenham sido dig
 
 import java.util.Scanner;
 
-public class CrescenteDecrescente {
+public class URI1113 {
 
     public static void main(String[] args) {
 
